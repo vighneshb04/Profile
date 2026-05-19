@@ -25,7 +25,7 @@ export default function Research() {
           <motion.div key={p.title} ref={ref} style={{display:"grid",gridTemplateColumns:"100px 1fr",gap:80,padding:"48px 0",borderBottom:"1px solid var(--border)",position:"relative",overflow:"hidden"}} className="pub-row" initial={{opacity:0}} animate={inView?{opacity:1}:{}} transition={{duration:0.6,delay:i*0.15}}>
             {/* Hover sweep */}
             <motion.div style={{position:"absolute",inset:0,background:"rgba(184,164,138,0.025)",originX:0,pointerEvents:"none"}} initial={{scaleX:0}} whileHover={{scaleX:1}} transition={{duration:0.6,ease:[0.76,0,0.24,1]}} />
-            <motion.div style={{fontFamily:"var(--font-display)",fontSize:"clamp(44px,5.5vw,76px)",color:"var(--border)",lineHeight:1,position:"relative",zIndex:1}} initial={{opacity:0,x:-30}} animate={inView?{opacity:1,x:0}:{}} transition={{duration:0.8,delay:i*0.15+0.1}} whileHover={{color:"var(--accent-dim)"}}>{p.year}</motion.div>
+            <motion.div style={{fontFamily:"var(--font-display)",fontSize:"clamp(44px,5.5vw,76px)",color:"var(--accent)",lineHeight:1,position:"relative",zIndex:1}} initial={{opacity:0,x:-30}} animate={inView?{opacity:1,x:0}:{}} transition={{duration:0.8,delay:i*0.15+0.1}} whileHover={{color:"var(--accent-dim)"}}>{p.year}</motion.div>
             <motion.div style={{position:"relative",zIndex:1}} initial={{opacity:0,y:20}} animate={inView?{opacity:1,y:0}:{}} transition={{duration:0.85,delay:i*0.15+0.15}}>
               <div style={{display:"flex",alignItems:"center",gap:12,marginBottom:12}}>
                 <span style={{fontFamily:"var(--font-mono)",fontSize:9,letterSpacing:"0.24em",textTransform:"uppercase",color:"var(--accent)"}}>{p.venue}</span>

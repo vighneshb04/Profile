@@ -8,7 +8,7 @@
   --border-light: #252525;
   --white: #ffffff;
   --off: #e8e2d9;
-  --muted: #4a4a4a;
+  --muted: #bababa;
   --accent: #b8a48a;
   --accent-bright: #d4c4aa;
   --accent-dim: #6b5c47;
@@ -78,7 +78,7 @@ body::before {
 
 .tag {
   font-family: var(--font-mono);
-  font-size: 9px;
+  font-size: 13px;
   letter-spacing: 0.12em;
   text-transform: uppercase;
   padding: 4px 10px;
@@ -92,7 +92,7 @@ body::before {
 
 .label {
   font-family: var(--font-mono);
-  font-size: 9px;
+  font-size: 15px;
   letter-spacing: 0.22em;
   text-transform: uppercase;
   color: var(--muted);

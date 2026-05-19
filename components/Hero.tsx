@@ -56,7 +56,7 @@ export default function Hero() {
           </div>
           <div style={{overflow:"hidden",display:"flex",alignItems:"baseline",gap:24}}>
             <motion.div variants={item} style={S.nameGhost}>B.</motion.div>
-            <motion.span variants={item} style={{fontFamily:"var(--font-mono)",fontSize:"clamp(11px,1vw,15px)",color:"var(--muted)",letterSpacing:"0.25em",marginBottom:8}}>EST. 2003</motion.span>
+            
           </div>
 
           <motion.div variants={item} style={{marginTop:40,display:"flex",flexWrap:"wrap",alignItems:"flex-end",justifyContent:"space-between",gap:32}}>
@@ -84,13 +84,7 @@ export default function Hero() {
         </motion.div>
       </motion.div>
 
-      <motion.div initial={{opacity:0}} animate={{opacity:1}} transition={{delay:3.8,duration:1}}
-        style={{position:"absolute",bottom:40,left:"50%",transform:"translateX(-50%)",display:"flex",flexDirection:"column",alignItems:"center",gap:12,zIndex:10}}>
-        <span style={{fontFamily:"var(--font-mono)",fontSize:8,letterSpacing:"0.35em",textTransform:"uppercase",color:"var(--muted)"}}>Scroll</span>
-        <div style={{width:20,height:32,borderRadius:10,border:"1px solid var(--border-light)",display:"flex",alignItems:"flex-start",justifyContent:"center",paddingTop:6}}>
-          <motion.div style={{width:2,borderRadius:2,background:"var(--accent)"}} animate={{height:["0px","12px","0px"],y:[0,8,0],opacity:[0,1,0]}} transition={{duration:1.8,repeat:Infinity,ease:"easeInOut"}} />
-        </div>
-      </motion.div>
+      
 
       <style>{`@media(max-width:768px){#hero{padding:0 24px 64px;}}`}</style>
     </section>
