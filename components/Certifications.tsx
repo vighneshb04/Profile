@@ -24,7 +24,7 @@ export default function Certifications() {
               <div style={{position:"absolute",left:0,top:0,bottom:0,width:1,overflow:"hidden"}}>
                 <motion.div style={{width:"100%",height:"100%",background:"var(--accent)",originY:0}} initial={{scaleY:0}} whileHover={{scaleY:1}} transition={{duration:0.4,ease:[0.76,0,0.24,1]}} />
               </div>
-              <div style={{fontFamily:"var(--font-display)",fontSize:40,lineHeight:1,letterSpacing:"0.06em",color:"var(--accent)",flexShrink:0,width:64}}>{c.abbr}</div>
+              <div style={{fontFamily:"var(--font-display)",fontSize:40,lineHeight:1,letterSpacing:"0.06em",color:"var(--accent)",flexShrink:0,width:90}}>{c.abbr}</div>
               <div style={{flex:1,minWidth:0}}>
                 <div style={{fontFamily:"var(--font-sans)",fontWeight:600,fontSize:15,lineHeight:1.3,color:"var(--white)",marginBottom:4}}>{c.name}</div>
                 <div style={{fontFamily:"var(--font-mono)",fontSize:9,letterSpacing:"0.18em",textTransform:"uppercase",color:"var(--muted)"}}>{c.issuer}</div>
