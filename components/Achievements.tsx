@@ -5,9 +5,14 @@ import { useRef } from "react";
 
 const achievements = [
   
-  { abbr:"GOV", title:"MeitY Startup Hub — National Winner", desc:"GENESIS EIR Cohort-2, Government of India. National-level startup pitch deck competition.", year:"2025" },
+  { abbr:"GOV", title:"MeitY Startup Hub — National Winner", desc:"GENESIS EIR Cohort-2, Government of India. National-level startup pitch deck competition by MeitY, Government of India", year:"2025" },
   { abbr:"ACM", title:"ACM Web Lead & Mentor", desc:"Mentored 100+ students in web development, cloud infrastructure, and blockchain.", year:"2024–" },
-  { abbr:"AWD", title:"Spirit of Innovation Award", desc:"CAUSE 2025 Ideathon, CMR University, Bengaluru.", year:"2025" },
+{
+  abbr:"AIS",
+  title:"Project Presenter",
+  desc:"Showcased project at the official pre-event of AI Impact Summit 2026, hosted by UNESCO Chair at Amrita and supported by MeitY, Government of India.",
+  year:"2026"
+},
   { abbr:"IEEE", title:"Dual IEEE Publication", desc:"Published at IIT Indore ICCCNT 2025 and Christ University TQCEBT 2026.", year:"25/26" },
   { abbr:"Open Source", title:"Hacktoberfest Contributor", desc:"Multiple accepted open-source pull requests across public repositories.", year:"2025" },
   
